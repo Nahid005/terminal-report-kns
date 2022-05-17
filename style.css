@@ -1,197 +1,21 @@
-
-/** invoice design **/
-
-.card-body .invoice-body ul {
-    padding: 0;
-    list-style: none;
-}
-
-.invoice-header .invoice-date-time {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.customer-invoice-section .invoice-title {
-    text-align: center;
-}
-
-.invoice-header .invoice-id {
-    text-align: center;
-}
-
-.card-body .invoice-header {
-    margin: 20px 0;
-}
-
-.invoice-date-time .invoice-text {
-    border: 1px solid #6c757d;
-    padding: 8px 20px;
-    font-size: 18px;
-    font-weight: 600;
-    background: #f9f9f9;
-}
-
-.invoice-date-time .invoice-date {
-    border: 1px solid #6c757d;
-    padding: 8px 20px;
-    font-size: 18px;
-    font-weight: 600;
-    background: #f9f9f9;
-}
-
-.invoice-date-time .invoice-text h5 {
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.customer-invoice-section .order-product table {
+.terminal-report-section {
+    text-align: center;
+}
+
+.terminal-report-section table{
     width: 100%;
 }
 
-.order-product table td.invoice-due {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    color: #333;
+.terminal-report-section table tr td{
+    min-width: 20px;
 }
 
-.order-product table td {
-    padding: 4px 10px;
-    border: 1px solid #f2f2f2;
-    font-size: 16px;
-}
-
-.order-product table th {
-    padding: 4px 10px;
-    border: 1px solid #f2f2f2;
-    text-align: center;
-    font-size: 16px;
-}
-
-.card-body .invoice-body ul li {
-    font-size: 16px;
-}
-
-.customer-invoice-section .invoice-note ul {
-    list-style: none;
-    padding: 0;
-}
-
-.customer-invoice-section .invoice-note ul li {
-    font-size: 16px;
-}
-
-.customer-invoice-section .invoice-copyright {
-    text-align: center;
-}
-
-.customer-invoice-section .invoice-copyright p {
-    font-size: 16px;
-}
-
-.customer-invoice-section .order-product {
-    margin: 20px 0;
-}
-
-
-
-@media print and (max-width: 10cm) {
-    /** invoice design **/  
-
-    .card-body .invoice-body ul {
-        padding: 0;
-        list-style: none;
-    }
-
-    .invoice-header .invoice-date-time {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .customer-invoice-section .invoice-title {
-        text-align: center;
-    }
-
-    .invoice-header .invoice-id {
-        text-align: center;
-    }
-
-    .card-body .invoice-header {
-        margin: 20px 0;
-    }
-
-    .invoice-date-time .invoice-text {
-        border: 1px solid #6c757d;
-        padding: 8px 20px;
-        font-size: 18px;
-        font-weight: 600;
-        background: #f9f9f9;
-    }
-
-    .invoice-date-time .invoice-date {
-        border: 1px solid #6c757d;
-        padding: 8px 20px;
-        font-size: 18px;
-        font-weight: 600;
-        background: #f9f9f9;
-    }
-
-    .invoice-date-time .invoice-text h5 {
-        margin: 0;
-    }
-
-    .customer-invoice-section .order-product table {
-        width: 100%;
-    }
-
-    .order-product table td.invoice-due {
-        text-align: center;
-        font-size: 20px;
-        font-weight: 600;
-        color: #333;
-    }
-
-    .order-product table td {
-        padding: 4px 10px;
-        border: 1px solid #f2f2f2;
-        font-size: 16px;
-    }
-
-    .order-product table th {
-        padding: 4px 10px;
-        border: 1px solid #f2f2f2;
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .card-body .invoice-body ul li {
-        font-size: 16px;
-    }
-
-    .customer-invoice-section .invoice-note ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .customer-invoice-section .invoice-note ul li {
-        font-size: 16px;
-    }
-
-    .customer-invoice-section .invoice-copyright {
-        text-align: center;
-    }
-
-    .customer-invoice-section .invoice-copyright p {
-        font-size: 16px;
-    }
-
-    .customer-invoice-section .order-product {
-        margin: 20px 0;
-    }
-
-
-
-}
+/* .terminal-report-section table tr th{
+    border: 1px solid #ddd;
+} */
