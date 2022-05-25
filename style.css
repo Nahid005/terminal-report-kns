@@ -6,16 +6,84 @@
 
 .terminal-report-section {
     text-align: center;
-}
-
-.terminal-report-section table{
+    position: relative;
+  }
+  
+  .terminal-report-section table{
     width: 100%;
-}
-
-.terminal-report-section table tr td{
+  }
+  
+  .terminal-report-section table tr td{
     min-width: 20px;
-}
-
-/* .terminal-report-section table tr th{
-    border: 1px solid #ddd;
-} */
+    font-size: 10px !important;
+    border-color: #000 !important;
+  }
+  
+  .terminal-report-section table tr th{
+    min-width: 20px;
+    font-size: 10px !important;
+    border-color: #000 !important;
+  }
+  
+  .terminal-report-section tr th{
+    background: #8300004d !important;
+  }
+  
+  .header-seciton .academy-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 34%;
+  }
+  
+  .academy-header-section .academy-logo img {
+    width: 100px;
+  }
+  
+  .section-informaion ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+  }
+  
+  .section-informaion ul li {
+    list-style: none;
+  }
+  
+  .terminal-report-section .exam-title h3 {
+    margin: 0;
+    background: #8300004d;
+    display: inline-block;
+    padding: 5px 20px;
+  font-size: 20px;}
+  
+  .terminal-report-section .exam-title {
+    margin: 20px 0;
+  }
+  
+  .section-informaion ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .academy-header-section .academy-name p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .academy-header-section .academy-name h1 {
+    margin: 0 ;
+  font-size: 28px;}
+  
+  .terminal-report-section table tr th {
+    font-weight: 500;
+  }
+  
+  .terminal-report-section table tfoot tr td {
+    border: 0;
+    padding-top: 50px;
+  }
+  
